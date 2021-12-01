@@ -6,7 +6,7 @@ public class Day1 {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         try {
-            Scanner scanner = new Scanner(new File("TXT/input.txt"));
+            Scanner scanner = new Scanner(new File("TXT/day1Input.txt"));
             while (scanner.hasNext()) {
                 numbers.add(Integer.valueOf(scanner.nextLine()));
             }
