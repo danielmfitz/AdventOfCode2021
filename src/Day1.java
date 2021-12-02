@@ -22,12 +22,10 @@ public class Day1 {
         System.out.println(tally);
         tally = 0;
         for (int i = 0; i < numbers.size() - 3; i++) {
-            if (numbers.get(i) + numbers.get(i + 1) + numbers.get (i + 2) < numbers.get(i + 1) + numbers.get(i + 2) + numbers.get (i + 3)) {
+            if (numbers.get(i) + numbers.get(i + 1) + numbers.get(i + 2) < numbers.get(i + 1) + numbers.get(i + 2) + numbers.get(i + 3)) {
                 tally++;
             }
         }
         System.out.println(tally);
     }
-
-
 }
