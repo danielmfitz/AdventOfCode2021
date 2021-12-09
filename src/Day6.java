@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Day6 {
     public static void main(String[] args) {
         Day6 prog = new Day6();
-        ArrayList<String> days = new ArrayList<>();
         ArrayList<Lanternfish> listOfFish = new ArrayList<>();
         String input = null;
         try {
@@ -39,7 +38,7 @@ public class Day6 {
         int newFishCount = 0;
         for (Lanternfish fish : listOfFish) {
             boolean createFish = fish.newDay();
-            if (createFish == true) {
+            if (createFish) {
                 newFishCount++;
             }
         }
