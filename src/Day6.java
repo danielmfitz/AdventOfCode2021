@@ -70,7 +70,7 @@ class Lanternfish {
 
 class Lanternfish2 {
     //part 2 lanternfish (actually works now!)
-    private long nine = 0;
+    //in future: Could store these in array (silly)
     private long eight = 0;
     private long seven = 0;
     private long six = 0;
