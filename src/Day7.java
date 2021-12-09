@@ -7,7 +7,6 @@ public class Day7 {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         Day7 day7 = new Day7();
-        ArrayList<Integer> shortestDistance = new ArrayList<>();
         try {
             Scanner scanner = new Scanner(new File("TXT/day7Input.txt"));
             String num = scanner.nextLine();
